@@ -9379,11 +9379,25 @@
     "type": "Dark",
     "category": "status",
     "power": null,
-    "accuracy": 50,
+    "accuracy": 0,
     "pp": 10,
     "effect": "Puts the target to sleep.",
     "flags": [],
-    "secondary_effect": null,
+    "secondary_effect": {
+      "chance": 100,
+      "mode": "all",
+      "effects": [
+        {
+          "kind": "STATUS",
+          "status": "SLEEP",
+          "stat": null,
+          "stages": 0,
+          "target": "target",
+          "field": null,
+          "note": ""
+        }
+      ]
+    },
     "needs_review": false
   },
   "psycho_shift": {
@@ -9572,7 +9586,21 @@
     "pp": 30,
     "effect": "Paralyzes the target.",
     "flags": [],
-    "secondary_effect": null,
+    "secondary_effect": {
+      "chance": 100,
+      "mode": "all",
+      "effects": [
+        {
+          "kind": "STATUS",
+          "status": "PARALYSIS",
+          "stat": null,
+          "stages": 0,
+          "target": "target",
+          "field": null,
+          "note": ""
+        }
+      ]
+    },,
     "needs_review": false
   },
   "thousand_arrows": {
@@ -9657,14 +9685,24 @@
     "accuracy": 100,
     "pp": 10,
     "effect": "Inflicts regular damage, with a 40% flinch chance. If used a 2nd time consecutively, it deals more damage but has a lower flinch chance.",
-    "flags": ["CONSECUTIVE_USE_SCALING"],
+    "flags": [
+      "CONSECUTIVE_USE_SCALING"
+    ],
     "secondary_effect": {
       "base": {
         "power": 80,
         "chance": 40,
         "mode": "all",
         "effects": [
-          {"kind": "FLINCH", "status": null, "stat": null, "stages": 0, "target": "target", "field": null, "note": ""}
+          {
+           "kind": "FLINCH",
+           "status": null, 
+           "stat": null, 
+           "stages": 0, 
+           "target": "target",
+           "field": null, 
+           "note": ""
+          }
         ]
       },
       "chained": {
@@ -9672,9 +9710,44 @@
         "chance": 20,
         "mode": "all",
         "effects": [
-          {"kind": "FLINCH", "status": null, "stat": null, "stages": 0, "target": "target", "field": null, "note": ""}
+          {
+           "kind": "FLINCH",
+           "status": null, 
+           "stat": null, 
+           "stages": 0, 
+           "target": "target",
+           "field": null, 
+           "note": ""
+          }
         ]
       }
+    },
+    "needs_review": false
+  },
+  "voltage_shock": {
+    "name": "Voltage Shock",
+    "type": "Electric",
+    "category": "special",
+    "power": 60,
+    "accuracy": 100,
+    "priority": 1,
+    "pp": 10,
+    "effect": "Inflicts regular damage. May move first and has a chance of paralysing the target.",
+    "flags": [],
+    "secondary_effect": {
+      "chance": 40,
+      "mode": "all",
+      "effects": [
+        {
+          "kind": "STATUS",
+          "status": "PARALYSIS",
+          "stat": null,
+          "stages": 0,
+          "target": "target",
+          "field": null,
+          "note": ""
+        }
+      ]
     },
     "needs_review": false
   }
