@@ -9644,9 +9644,38 @@
     "power": 60,
     "accuracy": 100,
     "pp": 15,
-    "effect": "",
+    "effect": "Inflicts regular damage, and may go first",
     "flags": [],
     "secondary_effect": null,
+    "needs_review": false
+  },
+  "blossoming_helix": {
+    "name": "Blossoming Helix", 
+    "type": "Fairy",
+    "category": "special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "effect": "Inflicts regular damage, with a 40% flinch chance. If used a 2nd time consecutively, it deals more damage but has a lower flinch chance.",
+    "flags": ["CONSECUTIVE_USE_SCALING"],
+    "secondary_effect": {
+      "base": {
+        "power": 80,
+        "chance": 40,
+        "mode": "all",
+        "effects": [
+          {"kind": "FLINCH", "status": null, "stat": null, "stages": 0, "target": "target", "field": null, "note": ""}
+        ]
+      },
+      "chained": {
+        "power": 100,
+        "chance": 20,
+        "mode": "all",
+        "effects": [
+          {"kind": "FLINCH", "status": null, "stat": null, "stages": 0, "target": "target", "field": null, "note": ""}
+        ]
+      }
+    },
     "needs_review": false
   }
 }
