@@ -24,7 +24,7 @@ import urllib.request
 import urllib.error
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-ROSTER_FILE = DATA_DIR / "champions_roster.txt"
+ROSTER_FILE = DATA_DIR / "pokedex.txt"
 POKEMON_FILE = DATA_DIR / "pokemon.json"
 MOVES_FILE = DATA_DIR / "moves.json"
 
