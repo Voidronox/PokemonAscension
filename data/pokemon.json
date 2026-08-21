@@ -40170,7 +40170,7 @@
     "ascension_id": null
   },
   "zygarde-50": {
-    "name": "Zygarde 50",
+    "name": "Zygarde",
     "types": [
       "Dragon",
       "Ground"
@@ -40368,6 +40368,135 @@
     "evolution_level": 38,
     "ascension_id": null
   },
+  "zekrom": {
+    "name": "Zekrom",
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "atk": 150,
+      "def": 120,
+      "sp_atk": 120,
+      "sp_def": 100,
+      "speed": 90
+    },
+    "abilities": [
+      "Teravolt"
+    ],
+    "movepool": [
+      {
+        "move": "imprison",
+        "level": 1
+      },
+      {
+        "move": "ancient_power",
+        "level": 1
+      },
+      {
+        "move": "endeavor",
+        "level": 1
+      },
+      {
+        "move": "slash",
+        "level": 1
+      },
+      {
+        "move": "fusion_bolt",
+        "level": 1
+      },
+      {
+        "move": "dragon_breath",
+        "level": 9
+      },
+      {
+        "move": "metal_sound",
+        "level": 17
+      },
+      {
+        "move": "charge",
+        "level": 25
+      },
+      {
+        "move": "bolt_strike",
+        "level": 33
+      },
+      {
+        "move": "crunch",
+        "level": 41
+      },
+      {
+        "move": "zap_cannon",
+        "level": 49
+      },
+      {
+        "move": "outrage",
+        "level": 57
+      },
+      {
+        "move": "hyper_voice",
+        "level": 65
+      }
+    ],
+    "evolves_from": null,
+    "evolves_to": null,
+    "evolution_level": null,
+    "ascension_id": null
+  },
+
+"reshiram": {
+    "name": "Reshiram",
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "base_stats": {
+      "hp": 100,
+      "atk": 120,
+      "def": 100,
+      "sp_atk": 150,
+      "sp_def": 120,
+      "speed": 90
+    },
+    "abilities": [
+      "Turboblaze"
+    ],
+    "movepool": [
+      {
+        "move": "imprison",
+        "level": 1
+      },
+      {
+        "move": "ancient_power",
+        "level": 1
+      },
+      {
+        "move": "endeavor",
+        "level": 1
+      },
+      {
+        "move": "slash",
+        "level": 1
+      },
+      {
+        "move": "fusion_flare",
+        "level": 1
+      },
+      {
+        "move": "dragon_breath",
+        "level": 9
+      },
+      {
+        "move": "extrasensory",
+        "level": 17
+      },
+      {
+        "move": "fire_fang",
+        "level": 25
+      },
+      {
+        "move":
   "vulpix": {
     "name": "Vulpix",
     "types": [
