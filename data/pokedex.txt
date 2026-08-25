@@ -411,3 +411,5 @@ zamazenta
 zamazenta-crowned
 miraidon
 koraidon
+vulpix
+ninetales
