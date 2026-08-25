@@ -12,7 +12,7 @@ manager.switch(OverworldState(manager), map_name="starting_town")
 
 running = True
 while running:
-    dt = clock.tick(FPS) / 1000  # seconds since last frame
+    dt = clock.tick(FPS) / 1000
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
