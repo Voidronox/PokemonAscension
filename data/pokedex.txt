@@ -1,3 +1,17 @@
+rowlet
+dartrix
+decidueye-shoten
+vulpix
+ninetales
+kitsunova
+clauncher
+clawitzer
+clawvurin
+sentret
+furret-shoten
+rookidee
+corvisquire
+corviknight-shoten
 bulbasaur
 ivysaur
 venusaur
@@ -241,8 +255,6 @@ binacle
 barbaracle
 skrelp
 dragalge
-clauncher
-clawitzer
 tyrunt
 tyrantrum
 amaura
@@ -262,8 +274,6 @@ bergmite
 avalugg
 noibat
 noivern
-rowlet
-dartrix
 litten
 torracat
 incineroar
@@ -302,8 +312,6 @@ inteleon
 scorbunny
 raboot
 cinderace
-rookidee
-corvisquire
 applin
 flapple
 appletun
@@ -349,8 +357,8 @@ nacli
 naclstack
 garganacl
 charcadet
-armarouge
-ceruledge
+armarouge-shoten
+ceruledge-shoten
 tadbulb
 bellibolt
 pawmi
@@ -383,9 +391,6 @@ duraludon
 archaludon
 dipplin
 hydrapple
-charcadet
-armarouge
-ceruledge
 mewtwo
 lugia
 ho-oh
@@ -401,6 +406,9 @@ giratina-origin
 arceus
 darkrai
 cresselia
+zekrom
+reshiram
+kyurem
 xerneas
 yveltal
 zygarde-50
@@ -411,5 +419,3 @@ zamazenta
 zamazenta-crowned
 miraidon
 koraidon
-vulpix
-ninetales
