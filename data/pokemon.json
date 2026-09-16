@@ -7128,12 +7128,32 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "metal_sound",
+        "level": 41
+      },
+      {
+        "move": "flash_cannon",
+        "level": 52
+      },
+      {
+        "move": "steel_beam",
+        "level": 78
+      },
+      {
+        "move": "stored_power",
+        "level": 37
+      },
+      {
+        "move": "metal_claw",
+        "level": 42
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "espeon-asc"
   },
   "umbreon": {
     "name": "Umbreon",
@@ -7268,12 +7288,32 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "flame_charge",
+        "level": 17
+      },
+      {
+        "move": "will_o_wisp",
+        "level": 36
+      },
+      {
+        "move": "flame_wheel",
+        "level": 24
+      },
+      {
+        "move": "flamethrower",
+        "level": 45
+      },
+      {
+        "move": "flare_blitz",
+        "level": 71
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "umbreon-asc"
   },
   "onix": {
     "name": "Onix",
