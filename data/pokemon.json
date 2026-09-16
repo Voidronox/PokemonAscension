@@ -4516,7 +4516,7 @@
       }
     ],
     "evolves_from": null,
-    "evolves_to": "vaporeon",
+    "evolves_to": ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"],
     "evolution_level": null,
     "ascension_id": null
   },
@@ -7135,11 +7135,11 @@
       },
       {
         "move": "flash_cannon",
-        "level": 52
+        "level": 51
       },
       {
         "move": "steel_beam",
-        "level": 78
+        "level": 79
       },
       {
         "move": "stored_power",
@@ -7147,7 +7147,7 @@
       },
       {
         "move": "metal_claw",
-        "level": 42
+        "level": 44
       }
     ],
     "evolves_from": "eevee",
@@ -7295,7 +7295,7 @@
       },
       {
         "move": "will_o_wisp",
-        "level": 36
+        "level": 37
       },
       {
         "move": "flame_wheel",
@@ -16499,12 +16499,32 @@
       {
         "move": "leafage",
         "level": 0
+      },
+      {
+        "move": "toxic",
+        "level": 0
+      },
+      {
+        "move": "gunk_shot",
+        "level": 61
+      },
+      {
+        "move": "poison_jab",
+        "level": 42
+      },
+      {
+        "move": "sludge_wave",
+        "level": 37
+      },
+      {
+        "move": "venoshock",
+        "level": 39
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "leafeon-asc"
   },
   "glaceon": {
     "name": "Glaceon",
@@ -16639,12 +16659,32 @@
       {
         "move": "snowscape",
         "level": 35
+      },
+      {
+        "move": "hurricane",
+        "level": 48
+      },
+      {
+        "move": "roost",
+        "level": 37
+      },
+      {
+        "move": "air_slash",
+        "level": 46
+      },
+      {
+        "move": "gust",
+        "level": 0
+      },
+      {
+        "move": "aerial_ace",
+        "level": 39
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "glaceon-asc"
   },
   "gligar": {
     "name": "Gligar",
