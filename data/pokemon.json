@@ -37853,6 +37853,10 @@
       {
         "move": "hex",
         "level": 50
+      },
+      {
+        "move": "dragon_dance",
+        "level": 1
       }
     ],
     "evolves_from": null,
@@ -40234,6 +40238,10 @@
       {
         "move": "hex",
         "level": 50
+      },
+      {
+        "move": "dragon_dance",
+        "level": 1
       }
     ],
     "evolves_from": null,
