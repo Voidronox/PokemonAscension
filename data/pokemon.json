@@ -4661,12 +4661,32 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "dragon_cheer",
+        "level": 53
+      },
+      {
+        "move": "dragon_pulse",
+        "level": 39
+      },
+      {
+        "move": "dragon_tail",
+        "level": 47
+      },
+      {
+        "move": "draco_meteor",
+        "level": 62
+      },
+      {
+        "move": "twister",
+        "level": 31
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "vaporeon-asc"
   },
   "jolteon": {
     "name": "Jolteon",
@@ -4797,12 +4817,28 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "air_slash",
+        "level": 41
+      },
+      {
+        "move": "hurricane",
+        "level": 63 
+      },
+      {
+        "move": "aerial_ace",
+        "level": 38
+      },
+      {
+        "move": "tailwind"
+        "level": 27
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "jolteon-asc"
   },
   "flareon": {
     "name": "Flareon",
@@ -4949,12 +4985,28 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "rock_slide",
+        "level": 47
+      },
+      {
+        "move": "rock_tomb",
+        "level": 36
+      },
+      {
+        "move": "meteor_beam",
+        "level": 69
+      },
+      {
+        "move": "stealth_rock",
+        "level": 31
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "flareon-asc"
   },
   "aerodactyl": {
     "name": "Aerodactyl",
@@ -25677,12 +25729,32 @@
       {
         "move": "baby_doll_eyes",
         "level": 9
+      },
+      {
+        "move": "shadow_ball",
+        "level": 49
+      },
+      {
+        "move": "hex",
+        "level": 57
+      },
+      {
+        "move": "will_o_wisp",
+        "level": 35
+      },
+      {
+        "move": "shadow_claw",
+        "level": 31
+      },
+      {
+        "move": "ominous_wind",
+        "level": 43
       }
     ],
     "evolves_from": "eevee",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "sylveon-asc"
   },
   "hawlucha": {
     "name": "Hawlucha",
