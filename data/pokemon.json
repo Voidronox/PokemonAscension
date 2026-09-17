@@ -4831,7 +4831,7 @@
         "level": 38
       },
       {
-        "move": "tailwind"
+        "move": "tailwind",
         "level": 27
       }
     ],
@@ -14965,12 +14965,12 @@
       "Fighting"
     ],
     "base_stats": {
-      "hp": ,
-      "atk": ,
-      "def": ,
-      "sp_atk": ,
-      "sp_def": ,
-      "speed": 
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "sp_atk": 0,
+      "sp_def": 0,
+      "speed": 0
     },
     "abilities": [
       "Cute Charm",
@@ -30853,8 +30853,8 @@
     ],
     "movepool": [
       {
-        "move": "",
-        "level": 
+        "move": "placeholder",
+        "level": 0
       }
     ],
     "evolves_from": "corvisquire",
