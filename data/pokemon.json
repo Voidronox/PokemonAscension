@@ -14959,17 +14959,18 @@
     "ascension_id": null
   },
   "lopunny-shoten": {
-    "name": "Shotenian Lopunny",
+    "name": "Lopunny",
     "types": [
-      "Normal"
+      "Fairy",
+      "Fighting"
     ],
     "base_stats": {
-      "hp": 65,
-      "atk": 76,
-      "def": 84,
-      "sp_atk": 54,
-      "sp_def": 96,
-      "speed": 105
+      "hp": ,
+      "atk": ,
+      "def": ,
+      "sp_atk": ,
+      "sp_def": ,
+      "speed": 
     },
     "abilities": [
       "Cute Charm",
@@ -17592,7 +17593,7 @@
     "ascension_id": null
   },
   "rotom-shoten": {
-    "name": "Shotenian Rotom",
+    "name": "Rotom",
     "types": [
       "Electric",
       "Ghost"
@@ -27301,7 +27302,7 @@
     "ascension_id": null
   },
   "decidueye-shoten": {
-    "name": "Shotenian Decidueye",
+    "name": "Decidueye",
     "types": [
       "Grass",
       "Fairy"
@@ -30832,7 +30833,7 @@
     "ascension_id": null
   },
   "corviknight-shoten": {
-    "name": "Shotenian Corviknight",
+    "name": "Corviknight",
     "types": [
       "Flying",
       "Dark"
@@ -32284,22 +32285,23 @@
     "evolution_level": null,
     "ascension_id": null
   },
-  "falinks": {
+  "falinks-shoten": {
     "name": "Falinks",
     "types": [
-      "Fighting"
+      "Dragon"
     ],
     "base_stats": {
-      "hp": 65,
-      "atk": 100,
-      "def": 100,
+      "hp": 90,
+      "atk": 110,
+      "def": 110,
       "sp_atk": 70,
-      "sp_def": 60,
-      "speed": 75
+      "sp_def": 70,
+      "speed": 100
     },
     "abilities": [
       "Battle Armor",
-      "Defiant"
+      "Defiant",
+      "Festival Formation"
     ],
     "movepool": [
       {
@@ -32319,7 +32321,7 @@
         "level": 10
       },
       {
-        "move": "reversal",
+        "move": "dragon_claw",
         "level": 30
       },
       {
@@ -32335,7 +32337,7 @@
         "level": 55
       },
       {
-        "move": "rock_smash",
+        "move": "breaking_swipe",
         "level": 5
       },
       {
@@ -32343,11 +32345,11 @@
         "level": 45
       },
       {
-        "move": "bulk_up",
+        "move": "dragon_dance",
         "level": 20
       },
       {
-        "move": "close_combat",
+        "move": "outrage",
         "level": 50
       },
       {
@@ -32355,14 +32357,26 @@
         "level": 35
       },
       {
-        "move": "no_retreat",
+        "move": "unyielding_march",
         "level": 40
+      },
+      {
+        "move": "dragon_tail",
+        "level": 47
+      },
+      {
+        "move": "draco_meteor",
+        "level": 83
+      },
+      {
+        "move": "smart_strike",
+        "level": 71
       }
     ],
     "evolves_from": null,
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "falinks-shoten-asc"
   },
   "dreepy": {
     "name": "Dreepy",
@@ -34064,6 +34078,10 @@
       {
         "move": "sludge_bomb",
         "level": 36
+      },
+      {
+        "move": "blazing_execution",
+        "level": 91
       }
     ],
     "evolves_from": "charcadet",
@@ -34157,7 +34175,7 @@
       },
       {
         "move": "pursuit",
-        "level": 51
+        "level": 53
       },
       {
         "move": "knock_off",
@@ -34170,6 +34188,10 @@
       {
         "move": "cross_poison",
         "level": 29
+      },
+      {
+        "move": "blazing_execution",
+        "level": 91
       }
     ],
     "evolves_from": "charcadet",
@@ -40645,7 +40667,6 @@
     "evolution_level": null,
     "ascension_id": null
   },
-
 "reshiram": {
     "name": "Reshiram",
     "types": [
@@ -40689,15 +40710,39 @@
         "level": 9
       },
       {
-        "move": "extrasensory",
+        "move": "smokescreen",
         "level": 17
       },
       {
-        "move": "fire_fang",
+        "move": "extrasensory",
         "level": 25
       },
       {
-        "move":
+        "move": "blue_flare",
+        "level": 33
+      },
+      {
+        "move": "crunch",
+        "level": 41
+      },
+      {
+        "move": "fire_blast",
+        "level": 49
+      },
+      {
+        "move": "outrage",
+        "level": 57
+      },
+      {
+        "move": "hyper_voice",
+        "level": 65
+      }
+    ],
+    "evolves_from": null,
+    "evolves_to": null,
+    "evolution_level": null,
+    "ascension_id": null
+  },
   "vulpix": {
     "name": "Vulpix",
     "types": [
