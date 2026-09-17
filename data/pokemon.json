@@ -30834,16 +30834,16 @@
   "corviknight-shoten": {
     "name": "Shotenian Corviknight",
     "types": [
-      "Steel",
-      ""
+      "Flying",
+      "Dark"
     ],
     "base_stats": {
-      "hp": ,
-      "atk": ,
-      "def": ,
-      "sp_atk": ,
-      "sp_def": ,
-      "speed": 
+      "hp": 75,
+      "atk": 60,
+      "def": 85,
+      "sp_atk": 100,
+      "sp_def": 115,
+      "speed": 90
     },
     "abilities": [
       "Pressure",
@@ -30851,7 +30851,10 @@
       "Stamina"
     ],
     "movepool": [
-
+      {
+        "move": "",
+        "level": 
+      }
     ],
     "evolves_from": "corvisquire",
     "evolves_to": null,
@@ -33950,23 +33953,24 @@
     "evolution_level": null,
     "ascension_id": null
   },
-  "armarouge": {
+  "armarouge-shoten": {
     "name": "Armarouge",
     "types": [
       "Fire",
-      "Psychic"
+      "Ghost"
     ],
     "base_stats": {
-      "hp": 85,
-      "atk": 60,
+      "hp": 95,
+      "atk": 55,
       "def": 100,
-      "sp_atk": 125,
-      "sp_def": 80,
-      "speed": 75
+      "sp_atk": 130,
+      "sp_def": 90,
+      "speed": 85
     },
     "abilities": [
       "Flash Fire",
-      "Weak Armor"
+      "Weak Armor",
+      "Curse Resonance"
     ],
     "movepool": [
       {
@@ -34010,7 +34014,7 @@
         "level": 1
       },
       {
-        "move": "psyshock",
+        "move": "shadow_ball",
         "level": 0
       },
       {
@@ -34034,12 +34038,32 @@
         "level": 1
       },
       {
-        "move": "expanding_force",
-        "level": 56
+        "move": "ominous_wind",
+        "level": 45
       },
       {
-        "move": "armor_cannon",
+        "move": "spirit_howitzer",
         "level": 62
+      },
+      {
+        "move": "toxic_spikes",
+        "level": 47
+      },
+      {
+        "move": "dragon_pulse",
+        "level": 52
+      },
+      {
+        "move": "draco_meteor",
+        "level": 78
+      },
+      {
+        "move": "hex",
+        "level": 61
+      },
+      {
+        "move": "sludge_bomb",
+        "level": 36
       }
     ],
     "evolves_from": "charcadet",
@@ -34047,23 +34071,24 @@
     "evolution_level": null,
     "ascension_id": null
   },
-  "ceruledge": {
+  "ceruledge-shoten": {
     "name": "Ceruledge",
     "types": [
       "Fire",
-      "Ghost"
+      "Dark"
     ],
     "base_stats": {
-      "hp": 75,
-      "atk": 125,
-      "def": 80,
-      "sp_atk": 60,
-      "sp_def": 100,
-      "speed": 85
+      "hp": 70,
+      "atk": 130,
+      "def": 85,
+      "sp_atk": 55,
+      "sp_def": 115,
+      "speed": 95
     },
     "abilities": [
       "Flash Fire",
-      "Weak Armor"
+      "Weak Armor",
+      "Life Force"
     ],
     "movepool": [
       {
@@ -34099,7 +34124,7 @@
         "level": 62
       },
       {
-        "move": "shadow_claw",
+        "move": "night_slash",
         "level": 0
       },
       {
@@ -34127,8 +34152,24 @@
         "level": 28
       },
       {
-        "move": "bitter_blade",
+        "move": "grim_blade",
         "level": 48
+      },
+      {
+        "move": "pursuit",
+        "level": 51
+      },
+      {
+        "move": "knock_off",
+        "level": 63
+      },
+      {
+        "move": "slash",
+        "level": 51
+      },
+      {
+        "move": "cross_poison",
+        "level": 29
       }
     ],
     "evolves_from": "charcadet",
