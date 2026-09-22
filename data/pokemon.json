@@ -7118,7 +7118,7 @@
         "level": 1
       },
       {
-        "move": "power_swap",
+        "move": "revival_blessing",
         "level": 78
       },
       {
@@ -7250,7 +7250,7 @@
         "level": 1
       },
       {
-        "move": "covet",
+        "move": "fake_out",
         "level": 1
       },
       {
@@ -7266,7 +7266,7 @@
         "level": 1
       },
       {
-        "move": "guard_swap",
+        "move": "revival_blessing",
         "level": 78
       },
       {
@@ -7308,6 +7308,10 @@
       {
         "move": "flare_blitz",
         "level": 71
+      },
+      {
+        "move": "follow_me",
+        "level": 48
       }
     ],
     "evolves_from": "eevee",
