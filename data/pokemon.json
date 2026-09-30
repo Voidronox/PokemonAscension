@@ -39276,7 +39276,7 @@
       "destiny_bond"
     ],
     "evolves_from": null,
-    "evolves_to": "armarouge",
+    "evolves_to": ["armarouge-shoten", "ceruledge-shoten"],
     "evolution_level": null,
     "ascension_id": null
   },
