@@ -8,3 +8,5 @@ def load_json(name):
         return json.load(f)
 
 POKEMON = load_json("pokemon.json")
+ASC_POKEMON = load_json("ascensions.json")
+MOVES = load_json("moves.json")
