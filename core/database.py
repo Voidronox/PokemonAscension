@@ -1,43 +1,10 @@
-from dataclasses import dataclass
-from math import floor
-from core.database import POKEMON
+import json
+from pathlib import Path
 
-NATURES = {  # name: (boosted, lowered)
-    "Hardy": None, "Docile": None, "Serious": None, "Bashful": None, "Quirky": None,
-    "Lonely": ("atk", "def"), "Brave": ("atk", "spe"), "Adamant": ("atk", "spa"), "Naughty": ("atk", "spd"),
-    "Bold": ("def", "atk"), "Relaxed": ("def", "spe"), "Impish": ("def", "spa"), "Lax": ("def", "spd"),
-    "Timid": ("spe", "atk"), "Hasty": ("spe", "def"), "Jolly": ("spe", "spa"), "Naive": ("spe", "spd"),
-    "Modest": ("spa", "atk"), "Mild": ("spa", "def"), "Quiet": ("spa", "spe"), "Rash": ("spa", "spd"),
-    "Calm": ("spd", "atk"), "Gentle": ("spd", "def"), "Sassy": ("spd", "spe"), "Careful": ("spd", "spa"),
-}
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
-def nature_mult(nature, stat):
-    effect = NATURES[nature]
-    if effect is None:
-        return 1.0
-    if stat == effect[0]:
-        return 1.1
-    if stat == effect[1]:
-        return 0.9
-    return 1.0
+def load_json(name):
+    with open(DATA_DIR / name, encoding="utf-8") as f:
+        return json.load(f)
 
-@dataclass
-class Pokemon:
-    species: str
-    level: int
-    nature: str
-    max_hp: int
-    hp: int
-    atk: int
-    defense: int
-    spa: int
-    spd: int
-    spe: int
-
-def create_pokemon(species, level, nature="Hardy", iv=31):
-    base = POKEMON[species]["base_stats"]   # adjust to your JSON
-    hp = calc_hp(base["hp"], level, iv)
-    stats = {s: calc_stat(base[s], level, iv, 0, nature_mult(nature, s))
-             for s in ("atk", "def", "spa", "spd", "spe")}
-    return Pokemon(species, level, nature, hp, hp,
-                   stats["atk"], stats["def"], stats["spa"], stats["spd"], stats["spe"])
+POKEMON = load_json("pokemon.json")
