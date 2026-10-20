@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from enum import Enum, auto
 from typing import Callable
 from core.database import MOVES
+from data.type_chart import TYPE_CHART, get_effectiveness, dual_effectiveness
 
 def damage_calc(lvl, mon_atk, mon_sp_atk, def_def, def_sp_def, move, status=1, stat=1, stab=1, ability=1, crit_rate=1):
     move_data = MOVES.get(move.lower())
