@@ -44,10 +44,15 @@ class Pokemon:
     speed: int
     ability: str = ""
     moves: list[str] = field(default_factory=list)
+    types: list[str] = field(default_factory=list)
     shiny: bool = False
+    @property
+    def fainted(self):
+        return self.hp <= 0
 
 def create_pokemon(species, level, nature="Hardy", iv=31):
-    base = POKEMON[species.lower()]["base_stats"]   # adjust to your JSON
+    base = POKEMON[species.lower()]["base_stats"]
+    types = POKEMON[species.lower()]["types"]
     hp = calc_hp(base["hp"], level, iv)
     stats = {s: calc_stat(base[s], level, iv, 0, nature_mult(nature, s))
              for s in ("atk", "def", "sp_atk", "sp_def", "speed")}
@@ -65,4 +70,4 @@ def spawn_wild(species, level, shiny=None):
 if __name__ == "__main__":
     name = input("Enter Pokemon name here: ")
     lvl = int(input("Enter Pokemon level here: "))
-    print(spawn_wild(name, lvl, None))
+    print(spawn_wild(name, lvl, None)) # testing block
