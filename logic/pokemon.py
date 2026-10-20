@@ -1,14 +1,15 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from math import floor
 from core.database import POKEMON
+import random
 
 NATURES = {  # name: (boosted, lowered)
     "Hardy": None, "Docile": None, "Serious": None, "Bashful": None, "Quirky": None,
-    "Lonely": ("atk", "def"), "Brave": ("atk", "spe"), "Adamant": ("atk", "spa"), "Naughty": ("atk", "spd"),
-    "Bold": ("def", "atk"), "Relaxed": ("def", "spe"), "Impish": ("def", "spa"), "Lax": ("def", "spd"),
-    "Timid": ("spe", "atk"), "Hasty": ("spe", "def"), "Jolly": ("spe", "spa"), "Naive": ("spe", "spd"),
-    "Modest": ("spa", "atk"), "Mild": ("spa", "def"), "Quiet": ("spa", "spe"), "Rash": ("spa", "spd"),
-    "Calm": ("spd", "atk"), "Gentle": ("spd", "def"), "Sassy": ("spd", "spe"), "Careful": ("spd", "spa"),
+    "Lonely": ("atk", "def"), "Brave": ("atk", "speed"), "Adamant": ("atk", "sp_atk"), "Naughty": ("atk", "sp_def"),
+    "Bold": ("def", "atk"), "Relaxed": ("def", "speed"), "Impish": ("def", "sp_atk"), "Lax": ("def", "sp_def"),
+    "Timid": ("speed", "atk"), "Hasty": ("speed", "def"), "Jolly": ("speed", "sp_atk"), "Naive": ("speed", "sp_def"),
+    "Modest": ("sp_atk", "atk"), "Mild": ("sp_atk", "def"), "Quiet": ("sp_atk", "speed"), "Rash": ("sp_atk", "sp_def"),
+    "Calm": ("sp_def", "atk"), "Gentle": ("sp_def", "def"), "Sassy": ("sp_def", "speed"), "Careful": ("sp_def", "sp_atk"),
 }
 
 def nature_mult(nature, stat):
@@ -27,6 +28,8 @@ def calc_hp(base, level, iv=31, ev=0):
 def calc_stat(base, level, iv=31, ev=0, nature=1.0):
     return floor((floor((2 * base + iv + ev // 4) * level / 100) + 5) * nature)
 
+SHINY_ODDS = 4096
+
 @dataclass
 class Pokemon:
     species: str
@@ -36,14 +39,30 @@ class Pokemon:
     hp: int
     atk: int
     defense: int
-    spa: int
-    spd: int
-    spe: int
+    sp_atk: int
+    sp_def: int
+    speed: int
+    ability: str = ""
+    moves: list[str] = field(default_factory=list)
+    shiny: bool = False
 
 def create_pokemon(species, level, nature="Hardy", iv=31):
-    base = POKEMON[species]["base_stats"]   # adjust to your JSON
+    base = POKEMON[species.lower()]["base_stats"]   # adjust to your JSON
     hp = calc_hp(base["hp"], level, iv)
     stats = {s: calc_stat(base[s], level, iv, 0, nature_mult(nature, s))
-             for s in ("atk", "def", "spa", "spd", "spe")}
+             for s in ("atk", "def", "sp_atk", "sp_def", "speed")}
     return Pokemon(species, level, nature, hp, hp,
-                   stats["atk"], stats["def"], stats["spa"], stats["spd"], stats["spe"])
+                   stats["atk"], stats["def"], stats["sp_atk"], stats["sp_def"], stats["speed"])
+
+def spawn_wild(species, level, shiny=None):
+    mon = create_pokemon(species, level, nature=random.choice(list(NATURES)), iv=random.randint(0, 31))
+    if shiny is None:
+        mon.shiny = random.randrange(SHINY_ODDS) == 0
+    else:
+        mon.shiny = shiny
+    return mon
+
+if __name__ == "__main__":
+    name = input("Enter Pokemon name here: ")
+    lvl = int(input("Enter Pokemon level here: "))
+    print(spawn_wild(name, lvl, None))
