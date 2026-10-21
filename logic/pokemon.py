@@ -28,6 +28,13 @@ def calc_hp(base, level, iv=31, ev=0):
 def calc_stat(base, level, iv=31, ev=0, nature=1.0):
     return floor((floor((2 * base + iv + ev // 4) * level / 100) + 5) * nature)
 
+def pick_ability(data):
+    return random.choice(data["abilities"])
+
+def pick_moves(data, level):
+    learnable = list({m["move"] for m in data["movepool"] if m["level"] <= level})
+    return random.sample(learnable, min(4, len(learnable)))
+
 SHINY_ODDS = 4096
 
 @dataclass
@@ -51,13 +58,16 @@ class Pokemon:
         return self.hp <= 0
 
 def create_pokemon(species, level, nature="Hardy", iv=31):
-    base = POKEMON[species.lower()]["base_stats"]
-    types = POKEMON[species.lower()]["types"]
+    data = POKEMON[species.lower()]
+    base = data["base_stats"]
     hp = calc_hp(base["hp"], level, iv)
     stats = {s: calc_stat(base[s], level, iv, 0, nature_mult(nature, s))
              for s in ("atk", "def", "sp_atk", "sp_def", "speed")}
     return Pokemon(species, level, nature, hp, hp,
-                   stats["atk"], stats["def"], stats["sp_atk"], stats["sp_def"], stats["speed"])
+                   stats["atk"], stats["def"], stats["sp_atk"], stats["sp_def"], stats["speed"],
+                   ability=pick_ability(data),
+                   moves=pick_moves(data, level),
+                   types=data["types"])
 
 def spawn_wild(species, level, shiny=None):
     mon = create_pokemon(species, level, nature=random.choice(list(NATURES)), iv=random.randint(0, 31))
