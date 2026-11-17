@@ -17388,17 +17388,17 @@
       "Fighting"
     ],
     "base_stats": {
-      "hp": 0,
-      "atk": 0,
-      "def": 0,
-      "sp_atk": 0,
-      "sp_def": 0,
-      "speed": 0
+      "hp": 75,
+      "atk": 78,
+      "def": 120,
+      "sp_atk": 42,
+      "sp_def": 105,
+      "speed": 80
     },
     "abilities": [
       "Cute Charm",
       "Klutz",
-      "Limber"
+      "Padded Fluff"
     ],
     "movepool": [
       {
@@ -17524,6 +17524,10 @@
       {
         "move": "baby_doll_eyes",
         "level": 13
+      },
+      {
+        "move": "cotton_guard",
+        "level": 42
       }
     ],
     "tm": [],
@@ -17531,7 +17535,7 @@
     "evolves_from": "buneary",
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "lopunny-asc"
   },
   "spiritomb": {
     "name": "Spiritomb",
@@ -50761,20 +50765,20 @@
   "tyranitar-shoten": {
     "name": "Tyranitar",
     "types": [
-      "Rock",
-      "Dark"
+      "Dark",
+      "Dragon"
     ],
     "base_stats": {
-      "hp": 100,
-      "atk": 134,
-      "def": 110,
-      "sp_atk": 95,
-      "sp_def": 100,
-      "speed": 61
+      "hp": 115,
+      "atk": 89,
+      "def": 90,
+      "sp_atk": 130,
+      "sp_def": 125,
+      "speed": 51
     },
     "abilities": [
-      "Sand Stream",
-      "Unnerve"
+      "Intimidate",
+      "Nuclear Power"
     ],
     "movepool": [
       {
@@ -50818,7 +50822,7 @@
         "level": 38
       },
       {
-        "move": "sandstorm",
+        "move": "assurance",
         "level": 1
       },
       {
@@ -50858,7 +50862,7 @@
         "level": 54
       },
       {
-        "move": "smack_down",
+        "move": "dragon_pulse",
         "level": 24
       },
       {
@@ -50868,14 +50872,13 @@
       {
         "move": "stomping_tantrum",
         "level": 18
+      },
+      {
+        "move": "atomic_laser",
+        "level": 35
       }
     ],
     "tm": [
-      "mega_punch",
-      "fire_punch",
-      "ice_punch",
-      "thunder_punch",
-      "mega_kick",
       "headbutt",
       "body_slam",
       "take_down",
@@ -50920,14 +50923,12 @@
       "sleep_talk",
       "return",
       "frustration",
-      "dynamic_punch",
       "dragon_breath",
       "iron_tail",
       "hidden_power",
       "rain_dance",
       "sunny_day",
       "crunch",
-      "rock_smash",
       "whirlpool",
       "uproar",
       "torment",
@@ -50943,7 +50944,7 @@
       "rock_tomb",
       "sand_tomb",
       "muddy_water",
-      "aerial_ace",
+      "hurricane",
       "iron_defense",
       "dragon_claw",
       "mud_shot",
@@ -50954,8 +50955,6 @@
       "natural_gift",
       "payback",
       "assurance",
-      "fling",
-      "rock_polish",
       "dark_pulse",
       "dragon_pulse",
       "power_gem",
@@ -50963,12 +50962,9 @@
       "earth_power",
       "giga_impact",
       "avalanche",
-      "shadow_claw",
-      "thunder_fang",
-      "ice_fang",
-      "fire_fang",
+      "shadow_ball",
       "rock_climb",
-      "iron_head",
+      "flash_cannon",
       "stone_edge",
       "captivate",
       "stealth_rock",
@@ -51313,7 +51309,7 @@
     },
     "abilities": [
       "Pressure",
-      "Telepathy"
+      "Iaido"
     ],
     "movepool": [
       {
@@ -51329,7 +51325,7 @@
         "level": 24
       },
       {
-        "move": "pain_split",
+        "move": "retaliate",
         "level": 49
       },
       {
@@ -51345,15 +51341,15 @@
         "level": 30
       },
       {
-        "move": "heal_block",
+        "move": "dragon_rush",
         "level": 50
       },
       {
-        "move": "aura_sphere",
+        "move": "sacred_sword",
         "level": 90
       },
       {
-        "move": "earth_power",
+        "move": "guillotine",
         "level": 60
       },
       {
@@ -51373,7 +51369,7 @@
         "level": 10
       },
       {
-        "move": "shadow_force",
+        "move": "dance_of_blades",
         "level": 40
       },
       {
@@ -51392,16 +51388,13 @@
       "roar",
       "hyper_beam",
       "strength",
-      "thunderbolt",
-      "thunder_wave",
       "thunder",
       "earthquake",
-      "toxic",
-      "psychic",
+      "poison_jab",
+      "psycho_cut",
       "double_team",
       "confuse_ray",
       "swift",
-      "dream_eater",
       "rest",
       "substitute",
       "snore",
@@ -51434,7 +51427,6 @@
       "aerial_ace",
       "dragon_claw",
       "calm_mind",
-      "shock_wave",
       "gravity",
       "natural_gift",
       "payback",
@@ -51450,24 +51442,19 @@
       "draco_meteor",
       "iron_head",
       "stone_edge",
-      "charge_beam",
       "hone_claws",
-      "telekinesis",
-      "round",
-      "echoed_voice",
       "hex",
-      "bulldoze",
       "dragon_tail",
       "phantom_force",
       "confide",
       "brutal_swing",
       "breaking_swipe",
-      "skitter_smack"
+      "dragon_tail"
     ],
     "egg": [],
     "evolves_from": null,
     "evolves_to": null,
     "evolution_level": null,
-    "ascension_id": null
+    "ascension_id": "girashido-asc"
   }
 }
