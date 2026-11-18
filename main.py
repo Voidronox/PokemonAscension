@@ -4,7 +4,7 @@ from core.settings import SCREEN_WIDTH, SCREEN_HEIGHT, FPS
 from states.overworld import OverworldState
 
 pygame.init()
-screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.RESIZABLE | pygame.SCALED)
 clock = pygame.time.Clock()
 
 manager = StateManager()
