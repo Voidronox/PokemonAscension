@@ -979,7 +979,7 @@
     ],
     "height_m": 1.4,
     "weight_kg": 35.0,
-    "pokedex_entry": "Myths from Hisui tell of an ashen fox that appears on full moons. Scientists in Shoten believe that fox was actually Kitsunova.",
+    "pokedex_entry": "A myth originating from the Hisui region says that a mysterious ashen fox appears at night whenever the moon is full. Even though it is widely regarded as a guardian deity, new research has led Shotenian scientists to speculate that the ashen fox is actually the region’s own Kitsunova.",
     "base_stats": {
       "hp": 70,
       "atk": 140,
@@ -1517,7 +1517,7 @@
     ],
     "height_m": 1.5,
     "weight_kg": 45.0,
-    "pokedex_entry": "After evolving it grows a second arm cannon powered by electricity. It releases periodic pulses to ward off other aquatic Pokémon, and a single shock can knock out a Wailord.",
+    "pokedex_entry": "After evolving, Clawvurin develops another cannon on its left arm, and they’re now powered by electricity. Other aquatic Pokemon avoid risks of Clawvurin due to their periodic pulses of electricity when swimming. It has enough electrical power to knock a Wailord out cold in one shock.",
     "base_stats": {
       "hp": 80,
       "atk": 50,
@@ -12928,14 +12928,14 @@
   "tyranitar-shoten": {
     "name": "Tyranitar",
     "pokedex_no": 64,
-    "category": "Armor",
+    "category": "Kaiju",
     "types": [
       "Dark",
       "Dragon"
     ],
-    "height_m": 2.0,
-    "weight_kg": 202.0,
-    "pokedex_entry": "The quakes caused when it walks make even great mountains crumble and change the surrounding terrain.",
+    "height_m": 3.0,
+    "weight_kg": 954.3,
+    "pokedex_entry": "Living on Shoten has changed how Tyranitar preserves and creates energy. Its body now contains a small energy system that is similar to a modern nuclear reactor. This Pokemon can unleash high energy beams by charging up power in the spikes on its back.",
     "base_stats": {
       "hp": 115,
       "atk": 89,
@@ -20411,14 +20411,14 @@
   "lopunny-shoten": {
     "name": "Lopunny",
     "pokedex_no": 104,
-    "category": "Rabbit",
+    "category": "Fluff Guard",
     "types": [
       "Fairy",
       "Fighting"
     ],
-    "height_m": 1.2,
-    "weight_kg": 33.3,
-    "pokedex_entry": "Its fur is warm and yet remarkably light. This Pokémon kicks as though it were a master of karate, driving back its opponents with ease.",
+    "height_m": 1.5,
+    "weight_kg": 40.0,
+    "pokedex_entry": "Over time, this Pokemon has adapted and has grown a thick coat of fur that also serves as a defensive layer that protects it from strong impacts and serves as a sort of armor. This Pokemon is known to have a caring disposition, leading to it constantly being mistakenly called ‘big sister’ by the locals.",
     "base_stats": {
       "hp": 75,
       "atk": 78,
@@ -40775,14 +40775,14 @@
   "corviknight-shoten": {
     "name": "Corviknight",
     "pokedex_no": 218,
-    "category": "Raven",
+    "category": "Midnight Crow",
     "types": [
       "Flying",
       "Dark"
     ],
-    "height_m": 2.2,
-    "weight_kg": 75.0,
-    "pokedex_entry": "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region’s airborne taxi service.",
+    "height_m": 2.5,
+    "weight_kg": 190.0,
+    "pokedex_entry": "One cry from this Pokémon, and a swarm of Rookidee come flying. At such times, one would think the curtain of night had fallen, plunging the world into jet-black darkness that swallowed up everything in its wake. However, this Pokemon is quite loyal to any who gains its trust, and stories of trainers with this powerful Pokemon have been gaining popularity with the youth recently.",
     "base_stats": {
       "hp": 75,
       "atk": 60,
@@ -43037,11 +43037,12 @@
     "pokedex_no": 234,
     "category": "Parade",
     "types": [
-      "Dragon"
+      "Dragon",
+      "Fighting"
     ],
     "height_m": 3.0,
     "weight_kg": 65.0,
-    "pokedex_entry": "It picked up a new troop coordination from festival bonding that lets it move in perfect sync. The skill serves both its festival performances and its self-defense.",
+    "pokedex_entry": "Due to the various festivals across Shoten, Falinks has picked up a new way of bonding with its troops. This allows them to move more coordinated and in sync, performing well in festivals and defending themselves when needed.",
     "base_stats": {
       "hp": 90,
       "atk": 110,
@@ -47415,14 +47416,14 @@
   "armarouge-shoten": {
     "name": "Armarouge",
     "pokedex_no": 263,
-    "category": "Fire Warrior",
+    "category": "Spectral Warrior",
     "types": [
       "Fire",
       "Ghost"
     ],
-    "height_m": 1.5,
-    "weight_kg": 85.0,
-    "pokedex_entry": "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs.",
+    "height_m": 1.7,
+    "weight_kg": 65.0,
+    "pokedex_entry": "Time spent wandering in ruined battlefields has infused this Pokemon’s armour with lingering spirits of dead soldiers. It controls its armour with its spectral powers, felling even the mightiest of foes with a single shot.",
     "base_stats": {
       "hp": 95,
       "atk": 55,
@@ -47560,14 +47561,14 @@
   "ceruledge-shoten": {
     "name": "Ceruledge",
     "pokedex_no": 264,
-    "category": "Fire Blades",
+    "category": "Fallen Blades",
     "types": [
       "Fire",
       "Dark"
     ],
-    "height_m": 1.6,
-    "weight_kg": 62.0,
-    "pokedex_entry": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
+    "height_m": 1.7,
+    "weight_kg": 50.0,
+    "pokedex_entry": "Life in a desolate warzone has sullied its blades, corrupting them with the spirits of innocent souls that died during war. Its arm blades now burn with the resentment of a thousand lives, fueling its power.",
     "base_stats": {
       "hp": 70,
       "atk": 130,
@@ -53360,7 +53361,7 @@
     ],
     "height_m": 4.5,
     "weight_kg": 750.0,
-    "pokedex_entry": "A close relative of Giratina. It spars with Giratina in the Distortion World, and unlike its roguish relative, it prefers honourable fights.",
+    "pokedex_entry": "A close relative of the Sinnoh Legendary Pokemon Giratina. It lives in the Distortion World training itself to better its fighting and techniques, frequently sparring with Giratina during its time there. However, unlike Giratina’s roguelike strategies, Girashido prefers respectable fights, and avoids using dishonourable tactics to win, relying on skill and skill alone to do so.",
     "base_stats": {
       "hp": 150,
       "atk": 150,
