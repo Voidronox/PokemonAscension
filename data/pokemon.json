@@ -30223,10 +30223,15 @@
   },
   "decidueye-shoten": {
     "name": "Decidueye",
+    "pokedex_no": 3,
+    "category": "Sakura",
     "types": [
       "Grass",
       "Fairy"
     ],
+    "height_m": 1.7,
+    "weight_kg": 40.0,
+    "pokedex_entry": "After living in a war torn country, it adapted and turned aggressive. Living in solitude, it learned to craft more powerful weapons with and manipulate the foliage around them. Now armed with a bamboo bow and razor sharp petals, it soars in the sky shooting down anyone who stands in its path.",
     "base_stats": {
       "hp": 80,
       "atk": 50,
@@ -30237,9 +30242,24 @@
     },
     "abilities": [
       "Overgrow",
-      "Compound Tension",
-      "Speed Boost"
+      "Speed Boost",
+      "Compound Tension"
     ],
+    "assets": {
+      "normal_front": "assets/sprites/pokemon/normal/front/decidueye-shoten.png",
+      "normal_back": "assets/sprites/pokemon/normal/back/decidueye-shoten.png",
+      "shiny_front": "assets/sprites/pokemon/shiny/front/decidueye-shoten.png",
+      "shiny_back": "assets/sprites/pokemon/shiny/back/decidueye-shoten.png",
+      "icon": "assets/sprites/pokemon/icons/decidueye-shoten.png",
+      "cry": "assets/audio/pokemon/decidueye-shoten.ogg"
+    },
+    "catch_rate": 45,
+    "base_exp": 265,
+    "growth_rate": "medium_slow",
+    "ev_yield": {
+      "sp_atk": 3
+    },
+    "gender_ratio": 87.5,
     "movepool": [
       {
         "move": "blossoming_helix",
@@ -30355,7 +30375,6 @@
       }
     ],
     "tm": [],
-    "egg": [],
     "evolves_from": "dartrix",
     "evolves_to": null,
     "evolution_level": null,
